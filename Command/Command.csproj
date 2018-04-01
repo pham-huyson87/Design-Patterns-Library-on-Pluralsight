@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13E0A783-6FBC-4008-90CB-5CE399210285}</ProjectGuid>
+    <ProjectGuid>{BED81784-2EC4-4203-BCAB-56FEEF37EB03}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chain_Of_Responsibility</RootNamespace>
-    <AssemblyName>Chain Of Responsibility</AssemblyName>
+    <RootNamespace>Command</RootNamespace>
+    <AssemblyName>Command</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Template\Common.cs" />
-    <Compile Include="Template\EndOfChainHandler.cs" />
-    <Compile Include="Template\Processor.cs" />
-    <Compile Include="Template\Client.cs" />
-    <Compile Include="Template\Handler.cs" />
-    <Compile Include="Template\IProcessor.cs" />
-    <Compile Include="Template\IHandler.cs" />
-    <Compile Include="Template\Sender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
