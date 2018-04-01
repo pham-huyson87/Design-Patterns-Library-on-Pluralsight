@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain Of Responsibility", "Chain Of Responsibility\Chain Of Responsibility.csproj", "{13E0A783-6FBC-4008-90CB-5CE399210285}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{BED81784-2EC4-4203-BCAB-56FEEF37EB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{A90389AF-11A0-4305-8CD2-55D600065E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{13E0A783-6FBC-4008-90CB-5CE399210285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E0A783-6FBC-4008-90CB-5CE399210285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E0A783-6FBC-4008-90CB-5CE399210285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED81784-2EC4-4203-BCAB-56FEEF37EB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED81784-2EC4-4203-BCAB-56FEEF37EB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED81784-2EC4-4203-BCAB-56FEEF37EB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED81784-2EC4-4203-BCAB-56FEEF37EB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90389AF-11A0-4305-8CD2-55D600065E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90389AF-11A0-4305-8CD2-55D600065E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90389AF-11A0-4305-8CD2-55D600065E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90389AF-11A0-4305-8CD2-55D600065E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
