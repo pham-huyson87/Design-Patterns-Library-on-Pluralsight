@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF1832BE-1B8F-4F68-A9B3-37E658BD46CA}</ProjectGuid>
+    <ProjectGuid>{E77688D7-D5D6-4359-890E-2D6519D0F55B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Facade</RootNamespace>
-    <AssemblyName>Facade</AssemblyName>
+    <RootNamespace>Factory</RootNamespace>
+    <AssemblyName>Factory</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\IProduct.cs" />
+    <Compile Include="Common\NullProduct.cs" />
+    <Compile Include="Common\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Template\Client.cs" />
-    <Compile Include="Template\Facade.cs" />
-    <Compile Include="Template\ServiceA.cs" />
-    <Compile Include="Template\ServiceB.cs" />
-    <Compile Include="Template\ServiceC.cs" />
+    <Compile Include="Template - Factory Method\Client.cs" />
+    <Compile Include="Template - Factory Method\IProductFactory.cs" />
+    <Compile Include="Template - Factory Method\ProductA.cs" />
+    <Compile Include="Template - Factory Method\ProductAFactory.cs" />
+    <Compile Include="Template - Factory Method\ProductB.cs" />
+    <Compile Include="Template - Factory Method\ProductBFactory.cs" />
+    <Compile Include="Template - Simple Factory\Client.cs" />
+    <Compile Include="Template - Simple Factory\Factory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Template - Abstract Factory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
