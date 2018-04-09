@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{E77688D7-D5D6-4359-890E-2D6519D0F55B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{69118256-79D0-4A08-826D-C781F2019477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{D67F76A9-E97C-4BDA-97D8-8F48556DA450}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{E77688D7-D5D6-4359-890E-2D6519D0F55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E77688D7-D5D6-4359-890E-2D6519D0F55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E77688D7-D5D6-4359-890E-2D6519D0F55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69118256-79D0-4A08-826D-C781F2019477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69118256-79D0-4A08-826D-C781F2019477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69118256-79D0-4A08-826D-C781F2019477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69118256-79D0-4A08-826D-C781F2019477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
