@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{D67F76A9-E97C-4BDA-97D8-8F48556DA450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy Load Pattern", "Lazy Load Pattern\Lazy Load Pattern.csproj", "{AC103E7F-22A6-4954-8475-770ADB6B4035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D67F76A9-E97C-4BDA-97D8-8F48556DA450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC103E7F-22A6-4954-8475-770ADB6B4035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC103E7F-22A6-4954-8475-770ADB6B4035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC103E7F-22A6-4954-8475-770ADB6B4035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC103E7F-22A6-4954-8475-770ADB6B4035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
