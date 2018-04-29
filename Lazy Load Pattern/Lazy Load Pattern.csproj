@@ -47,11 +47,19 @@
     <Compile Include="Lazy Initialization\Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Value Holder\BusinessObject.cs" />
+    <Compile Include="Value Holder\BusinessObjectItem.cs" />
+    <Compile Include="Value Holder\BusinessObjectItemLoader.cs" />
+    <Compile Include="Value Holder\Client.cs" />
+    <Compile Include="Value Holder\BusinessObjectFactory.cs" />
+    <Compile Include="Value Holder\Common\IValueLoader.cs" />
+    <Compile Include="Value Holder\Common\ValueHolder.cs" />
     <Compile Include="Virtual Proxy\BusinessObject.cs" />
     <Compile Include="Virtual Proxy\BusinessObjectFactory.cs" />
     <Compile Include="Virtual Proxy\BusinessObjectProxy.cs" />
     <Compile Include="Virtual Proxy\Client.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
