@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ghosts\BusinessObject.cs" />
+    <Compile Include="Ghosts\Client.cs" />
+    <Compile Include="Ghosts\DomainObject.cs" />
     <Compile Include="Lazy Initialization\BusinessObject.cs" />
     <Compile Include="Lazy Initialization\Client.cs" />
     <Compile Include="Program.cs" />
